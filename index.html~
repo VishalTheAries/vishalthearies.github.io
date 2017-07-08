@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta description="Hello, I'm Vishal Gupta and I'm a Post Graduate Computer Engineer from Delhi, India" />
+  <meta keywords="vishal, gupta, vishal gupta, engineer, computer, software, developer, frontend, backend, full stack, cv, github" />
+  <meta author="Vishal Gupta" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>Vishal Gupta</title>
+</head>
+<body>
+  <pre>
+<span class="var">var</span> me <span class="equal">=</span> {
+  firstname: <span class="string">'Vishal'</span>,
+  lastname: <span class="string">'Gupta'</span>,
+  age: <span id="age" class="number"></span>,
+  hometown: <span class="string">'Delhi, India'</span>,
+  current-location: <span class="string">'Delhi, India'</span>,
+  degree: <span class="string">'M.Tech in Software Engineering'</span>,
+  socials: {
+    linkedin: <span class="string">'<a target="_blank" href="https://www.linkedin.com/in/vishalgupta013">linkedin.com/in/vishalgupta013</a>'</span>,
+    github: <span class="string">'<a target="_blank" href="https://github.com/vishalthearies">github.com/vishalthearies</a>'</span>
+  },
+  contact: {
+    mobile: <span class="string">'<a target="_blank" href="tel:00918826401408">+91-8826401408</a>'</span>,
+    email: <span class="string">'<a class="email-addr" href="mailto:vishalgupta013ATgmailDOTcom" onclick="this.href=this.href.replace(/AT/,'@').replace(/DOT/,'.')">vishalgupta013@gmail.com</a>'</span>
+};
+
+<span class="cursor">|</span>
+  </pre>
+  <script type="text/javascript">
+    var ageEl = document.getElementById("age");
+    var birthday = new Date("April 15, 1993");
+    var today = new Date();
+    ageEl.innerHTML = Math.floor((today - birthday) / 31536000000);
+  </script>
+</body>
+</html>
